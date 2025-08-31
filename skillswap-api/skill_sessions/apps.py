@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
 
-class SessionsConfig(AppConfig):
+class SkillSessionsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'sessions'
+    name = 'skill_sessions'
+
